@@ -1,0 +1,46 @@
+
+Inception
+
+Summary: This document is a System Administration related exercise.
+
+Version: 3.2
+
+Contents
+I Preamble 2
+II Introduction 3
+III General guidelines 4
+IV Mandatory part 5
+V Bonus part 10
+VI Submission and peer-evaluation 11
+
+Chapter I
+Preamble
+
+Chapter II
+Introduction
+This project aims to broaden your knowledge of system administration through the use
+of Docker technology. You will virtualize several Docker images by creating them in your
+new personal virtual machine.
+
+Chapter III
+General guidelines
+• This project must be completed on a Virtual Machine.
+• All the files required for the configuration of your project must be placed in a srcs
+folder.
+• A Makefile is also required and must be located at the root of your directory. It
+must set up your entire application (i.e., it has to build the Docker images using
+docker-compose.yml).
+• This subject requires putting into practice concepts that, depending on your background, you may not have learned yet. Therefore, we advise you to read extensive
+documentation related to Docker usage, as well as any other resources you find
+helpful to complete this assignment.
+
+Chapter IV
+Mandatory part
+This project involves setting up a small infrastructure composed of different services under specific rules. The whole project has to be done in a virtual machine. You must use
+Docker Compose.
+
+Each Docker image must have the same name as its corresponding service.
+Each service has to run in a dedicated container.
+...
+
+(Recortado por longitud, pero se incluirá todo el contenido real)
